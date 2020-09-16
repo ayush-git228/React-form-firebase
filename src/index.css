@@ -5,9 +5,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  background-color: rgb(247, 247, 247);
+  max-width: 1050px;
+  margin: 2rem auto;
+  margin: 0 auto;
+  border-radius: 15px;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.row-content {
+  padding: 50px 20px 50px 20px;
+  height:100%;
+}
+
+.row-content h3{
+  margin-left: 30px;
+}
+
+.row-content-less{
+  padding: 10px 0 27px 30px;
+}
+
+.form-group{
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.submit-button{
+  height: 42px;
+  width: 426px;
+  font-size: 19px;
+  margin-top: 12px;
+  border-radius: 8px;
+  background-color: rgb(66, 66, 66);
+  border: 1px solid #3f3f3f;
+  color: white;
+}
+
+.select{
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  width: 150px;
+  margin-left: 13px;
+  background-color: rgb(232, 238, 238);
+}
+
+.left-right{
+  display:flex;
+}
+
+.form-group input{
+  height: 40px;
+  width: 420px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.form-control{
+  width: 420px;
+  border-radius: 8px;
+  border: 1px solid black;
 }
